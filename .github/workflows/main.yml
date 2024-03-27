@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest https://s26.filetransfer.io/storage/download/wOFwMPNmx7US -OutFile ngrok.zip
+      run: Invoke-WebRequest https://s26.filetransfer.io/storage/download/hRozFAZ0kjni -OutFile ngrok.zip
 
     - name: Extract
       run: Expand-Archive ngrok.zip
